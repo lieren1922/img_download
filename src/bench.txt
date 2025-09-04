@@ -1,0 +1,16 @@
+20p
+release: sync
+    32740 毫秒
+    32990 毫秒
+
+release: async
+    13820 毫秒
+    13670 毫秒
+
+
+99p
+release: sync
+    162322 毫秒
+
+release: async
+    30831 毫秒

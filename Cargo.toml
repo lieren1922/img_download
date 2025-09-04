@@ -1,0 +1,12 @@
+[package]
+name = "img_download"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = { version = "0.12.20", features = ["blocking"] }
+scraper = "0.23.1"
+clap = { version = "4.5.40", features = ["derive"] }
+headless_chrome = "1.0.17"
+tokio = { version = "1.45.1", features = ["full"] }
+url = "2.5.4"
